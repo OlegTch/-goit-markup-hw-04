@@ -360,16 +360,15 @@ ul, ol {
 
 /*========== секция особености ==========*/
 
-
 .feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   height: 120px; 
   width: 270px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-   
-  background-color: var( --secondary-bg-color);    
-} 
+  background-color: var( --secondary-bg-color);  
+}
 
 .feature-title {
   margin-top: 0;
